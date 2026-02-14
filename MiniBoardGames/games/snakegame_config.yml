@@ -1,0 +1,16 @@
+die: You died drop to close
+score: 'Score: {score}'
+instructions: Eat the more food you can without eat yourself
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:music_disc_cat
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: SnakeGame
+best: 'Best: {score}'
+finalCommand: ''
+enableToBet: true
+enabled: true
+recordCommand: ''

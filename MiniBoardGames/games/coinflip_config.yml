@@ -1,0 +1,23 @@
+instructions: Flip a coin#And test your luck#With your friends
+select: '&aSelect side'
+cost: 0.0
+displayName: CoinFlip
+enableToBet: true
+enabled: true
+result: '&aWith {result}'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:gold_nugget
+  count: 1
+  schema_version: 1
+tails: '&4Tails'
+win:
+  self: '&aYou win'
+  other: '&6{name}&a win!'
+tie:
+  lose: '&cBoth lose'
+  win: '&cBoth wins'
+  title: '&4Tie'
+finalCommand: ''
+heads: '&6Heads'

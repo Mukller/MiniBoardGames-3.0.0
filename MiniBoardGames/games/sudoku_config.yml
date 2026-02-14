@@ -1,0 +1,24 @@
+win:
+  subtitle: '&7You complete the sudoku in &6{time}!'
+  title: '&a&dCongratulations'
+instructions: Fill the entire board with numbers#Cannot be repeated#on same vertical/horizontal#line
+  or in the same 3x3 box
+broadcast:
+  enabled: true
+  msg: '&4{player} win a sudoku in &6{time}!'
+cost: 0.0
+displayName: Sudoku
+start: '&6Move the camera to selected a cell and write in the chat the number you
+  want to write to 0 to remove!'
+enableToBet: true
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:paper
+  count: 1
+  schema_version: 1
+invalidNumber: '&cInvalid number, please select a number 1-9 or 0 to remove'
+finalCommand: ''
+clues: 31
+recordCommand: ''

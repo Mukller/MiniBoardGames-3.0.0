@@ -1,0 +1,47 @@
+selector:
+  loreused: '&7This ship is already used'
+  help:
+    lore:
+    - '&aSelect a ship to place'
+    - '&aLeft Click: Place the ship vertically'
+    - '&aRight Click: Place the ship horizontally'
+    title: '&6How to place your ships:'
+  loreunused: '&6Click to select'
+  other: '&6{player}&7 placed &6{placed}&7 of &6{max}&7 ships'
+  noselected: '&cYou don''t have any ship selected'
+  title: '&aSize {size}'
+attack:
+  help:
+    title: '&6How to attack:'
+    lore:
+    - '&aClick in any slot'
+    - '&aThe bombs will be launched'
+    - '&aIf you impact a ship the slot will turn &cred'
+    - '&aIf you don''t impact ships the slot will turn &fwhite'
+win:
+  subtitle: '&4Ahoy captain!'
+  title: '&6{player}&a win the war!'
+instructions: Sink your friend's ship
+displayName: BattleShip
+turn: '{player} &7turn'
+enabled: true
+board:
+  self: '&aYou Board (&6{turn}&a)'
+  attack: '&cAttack (&6{turn}&c)'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:oak_boat
+  count: 1
+  schema_version: 1
+placing_ships: '&cPlace your ships'
+finalCommand: ''
+cost: 0.0
+your_turn: '&6Your turn'
+place:
+  outofbound: '&cIn this place the ship will leave from the board!'
+  overship: '&cYou cannot place ships over others!'
+navigation:
+  board: '&aGo to your board'
+  attack: '&cGo to attack menu'
+enableToBet: true

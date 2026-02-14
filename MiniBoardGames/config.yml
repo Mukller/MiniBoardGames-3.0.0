@@ -1,0 +1,296 @@
+mbg:
+  invite:
+    ai: '&9Можно играть с искусственными игроками'
+    alreadyaccept: '&cВы уже приняли этот запрос!'
+    waiting: '&cОжидание принятия {requests} запрос(ов)...'
+    select: '&6Выберите игру!'
+    clickabledeny: '[ОТКЛОНИТЬ]'
+    cancelCooldown: 10
+    wait: '&a{player}&a ожидает'
+    ingame: '&c{player}&c уже в игре'
+    logout: '&cЗапрос на игру отменён, так как {player}&c вышел'
+    goto: '&3Перейти на страницу {to}'
+    playsingle: '&aИграть в одиночку'
+    donthave: '&cУ вас нет запросов на игру'
+    players: '&6Для {players} игроков'
+    waitinggui: '&cОжидание {requests}'
+    refresh: '&6Обновить'
+    accept: '&a{player}&a принял запрос на игру'
+    sendrequest: '&6&lОтправить запрос:'
+    offline: '&cИгрок {player} не в сети'
+    send: '&aВы отправили запрос на игру игроку(ам): {players}'
+    page: '&3Страница {current}/{total}'
+    roundsleft: '&6Осталось раундов: {rounds}'
+    cancelplayer: '&c{player}&c отменил запрос. Игра отменена.'
+    receive: '&6У вас новый запрос от {player}&6 на {rounds}&6 раунд(ов) в игре {game}&6
+      &a(/miniboardgames <accept/cancel>)'
+    cancelseconds: 30
+    invalidgame: '&cНеверное название игры "{game}"'
+    already: '&cУ вас уже есть активный запрос!'
+    canceltime: '&cВремя ожидания запроса истекло'
+    new: '&6У вас новый запрос на игру!'
+    lessplayers: '&cМаксимум игроков в этой игре: {players}. Уберите {invite} игрок(ов)'
+    deny: '&a{player}&a отклонил запрос на игру'
+    error: '&cОшибка отправки запроса, игрок "{player}" не найден'
+    noplayers: '&cНет игроков для приглашения'
+    moreplayers: '&cМинимум игроков в этой игре: {players}. Пригласите ещё {invite}'
+    clickableaccept: '[ПРИНЯТЬ]'
+    selectfriends: '&6Пригласите друзей!'
+    cooldown: '&c{player}&c отклонил последний запрос, подождите перед повторной отправкой'
+  
+  stats:
+    check:
+      your: '&a--- &3Ваша статистика в игре {game}: &a---'
+      player: '&a--- &3Статистика {player}&3 в игре {game}: &a---'
+    displaym: '&6Показ топа с {from} по {to} по &e{order}&6'
+    nostat: '&cСтатистика отсутствует, сыграйте в {game}&c чтобы она появилась'
+    notop: '&cТакого топа не существует'
+    menutop: '&3Топ {from}-{to} {game}'
+    seeyou: '&6Вы на позиции #{pos}'
+  
+  command:
+    accept:
+      help: '&3(Принять запрос на игру)'
+      cmd: accept
+    reset:
+      cmd: reset
+      help: <player> <game> &3(Сбросить статистику игрока в игре)
+    force:
+      help: <game> <players (через пробел)> &3(Принудительно запустить игру)
+      cmd: force
+    top:
+      help: <game> [stat] &3(Посмотреть топ. По умолчанию — количество игр)
+      cmd: top
+    play:
+      cmd: play
+      help: '[game] [rounds] &3(Открыть меню игры)'
+    reload:
+      help: '&3(Перезагрузить плагин)'
+      cmd: reload
+    cancel:
+      help: '&3(Отменить запрос на игру)'
+      cmd: cancel
+    debug:
+      help: <banner/menu/cfgudpates/colormodel> &3(Отладка)
+      cmd: debug
+    list:
+      help: '&3(Список игр)'
+      cmd: list
+    playmoney:
+      cmd: playmoney
+      help: <сумма> [game] &3(Игра на деньги)
+    stats:
+      cmd: stats
+      help: <game> &3(Посмотреть статистику)
+    spectate:
+      cmd: spectate
+      help: '[player] &3(Наблюдать за игрой)'
+  
+  cards:
+    rank:
+      queen: Дама
+      king: Король
+      ace: Туз
+      jack: Валет
+    suit:
+      clubs: '&7{rank} ♣'
+      spades: '&7{rank} ♠'
+      diamonds: '&c{rank} ♦'
+      hearts: '&c{rank} ♥'
+  
+  afk:
+    z: 0.5
+    x: 0.5
+    y: 0.0
+  
+  mustnumber: '&c{string} должно быть числом'
+  
+  bet:
+    maximum: -1
+    menu: '&6Меню ставок'
+    confirm: ЭТОТ ИГРОК СТАВИТ ${cost}, ВЫ ТОЧНО УВЕРЕНЫ?
+    nomoneyuser: У одного из игроков недостаточно денег
+    enabled: false
+    save: '&aСохранить и вернуться'
+    current: '&7Текущая ставка: &6{bet}$'
+    slider:
+      name: '&a{bet}$'
+      a: 1
+      b: 10
+      c: 100
+    note: 'ПРИМЕЧАНИЕ: ПОБЕДИТЕЛЬ ПОЛУЧАЕТ ДЕНЬГИ ОТ ВСЕХ ИГРОКОВ'
+    maximum_reached: '&cНельзя ставить больше ${amount}'
+    removeMoneyBeforeWin: false
+  
+  recordnew: '&6Вы побили свой рекорд: с {old} до {new}'
+  startspectateother: '&6{player}&a наблюдает за вами'
+  
+  database:
+    type: sqlite
+    sqlite:
+      filename: miniboardgames.db
+    mysql:
+      host: localhost
+      password: '1234'
+      database: miniboardgames
+      username: user
+      port: '3306'
+      suffix: ?autoReconnect=true
+    tableprefix: ''
+    columns:
+      discsPlaced: Discs Placed
+      purplePlaced: Purple Placed
+      stands: Stands
+      spins: Spins
+      tailsBets: Tails Bets
+      jumps: Jumps
+      minionsDamage: Minions Damage
+      lose: Lose
+      iron: Iron
+      totalScore: Total Score
+      flips: Flips
+      GhastPlaced: Ghast Placed
+      headsWinned: Heads Winned
+      SilverfishPlaced: Silverfish Placed
+      clicks: Clicks
+      mobsSmashed: Mobs Smashed
+      VillagerPlaced: Villager Placed
+      WitherBossPlaced: Wither Boss Placed
+      pairsFound: Pairs Found
+      horizontalWins: Horizontal Wins
+      diamond: Diamond
+      rock: Rock
+      incorrect: Incorrect
+      SlimePlaced: Slime Placed
+      timesPlayed: Times Played
+      coins: Coins
+      diagonalWins: Diagonal Wins
+      busts: Busts
+      CreeperPlaced: Creeper Placed
+      songs: Songs
+      bluePlaced: Blue Placed
+      ZombieVillagerPlaced: Zombie Villager Placed
+      linesCompleted: Lines Completed
+      greenAppleCards: Green Apple Cards
+      bombsLandedInWater: Bombs Landed In Water
+      doubleDowns: Double Downs
+      EnderDragonPlaced: Ender Dragon Placed
+      hits: Hits
+      paper: Paper
+      bombsLandedInShips: Bombs Landed In Ships
+      moneyGained: Money Gained
+      IronGolemPlaced: Iron Golem Placed
+      judgeTimes: Judge Times
+      bombsLaunched: Bombs Launched
+      thrownBonusGifs: Thrown Bonus Gifs
+      SnowmanPlaced: Snowman Placed
+      flags: Flags
+      EndermanPlaced: Enderman Placed
+      crowned: Crowned
+      ChickenPlaced: Chicken Placed
+      win: Win
+      SpiderPlaced: Spider Placed
+      greenPlaced: Green Placed
+      emerald: Emerald
+      PandaPlaced: Panda Placed
+      lines: Lines
+      headsBets: Heads Bets
+      correct: Correct
+      best: Best
+      wins: Wins
+      verticalWins: Vertical Wins
+      SquidPlaced: Squid Placed
+      skullsPlaced: Skulls Placed
+      redPlaced: Red Placed
+      thrownGifs: Thrown Gifs
+      player: Player
+      piecesPlaced: Pieces Placed
+      spits: Spits
+      green: Green
+      pongs: Pongs
+      totalDamage: Total Damage
+      tailsWinned: Tails Winned
+      star: Star
+      SkeletonPlaced: Skeleton Placed
+      GuardianPlaced: Guardian Placed
+      ChargedCreeperPlaced: Charged Creeper Placed
+      scissors: Scissors
+      best_moves: Best_moves
+      blue: Blue
+      yellow: Yellow
+      crownMoves: Crown Moves
+      botLoses: Bot Loses
+      kidsWithGifs: Kids With Gifs
+      red: Red
+      moves: Moves
+      fails: Fails
+      won: Won
+      goodNotes: Good Notes
+      WithereperPlaced: Withereper Placed
+      playersDamage: Players Damage
+      cardsPlaced: Cards Placed
+      ShulkerPlaced: Shulker Placed
+      record: Record
+      completed: Completed
+      BlazePlaced: Blaze Placed
+      botTies: Bot Ties
+      points: Points
+      ties: Ties
+      botWins: Bot Wins
+      blackjacks: Blackjacks
+      LavaSlimePlaced: Lava Slime Placed
+      kidsWithoutGifs: Kids Without Gifs
+      failedGifs: Failed Gifs
+      yellowPlaced: Yellow Placed
+  
+  playerleave: '&c{player}&6 покинул игру'
+  header: '&c[&2Mini&4Board&3Games&c]'
+  gamesMenuSize: 54
+  metrics: true
+  
+  cost:
+    title: '&6Игра стоит ${cost}'
+    confirm: '&aВы уверены?'
+    nomoney: '&cУ вас недостаточно денег'
+  
+  talkingame: '&6{player}&c сейчас в игре и может не ответить'
+  maxActiveGames: -1
+  startspectate: '&aВы наблюдаете за &6{player}'
+  leaderHeads: false
+  noinstructions: '&cУ этой игры нет инструкции'
+  updatechecker: true
+  antiafk: true
+  fireworks: true
+  mapHolograms: true
+  talkingameenabled: true
+  debugmode: false
+  timer: '&4Осталось {seconds} секунд!'
+  nopermission: '&cУ вас нет прав для выполнения этой команды!'
+  map:
+    emptyother: '&c{player} doesn''t have the hand empty'
+    hotbarslot: -1
+    game: '&6Map game'
+    empty: '&cYou need to empty your hand before playing this game'
+  cancel:
+    sub: '&c&lThe game has been canceled'
+    title: '&6&lTie'
+  nopermission_game: '&cSorry but you don''t have permission to play this game'
+  maxActiveGamesMessage: '&cThere are too much players playing, please try later'
+  timeplayed: '&c{time} played'
+  advancedpermission: false
+  youareingame: '&cYou can''t do this, you are in-game'
+  useChineseMapSystem: false
+  generic:
+    'yes': '&aYes'
+    'no': '&cNo'
+  spectate:
+    notplayer: '&cThis play is not playing'
+  notfound: Can't found {string}
+  hologram: '&aPlaying {game}'
+  allplayersneedpermission: false
+  costlore: '&4Cost: {cost}$'
+  header_special: '&c[&2Mini&4Board&3Games&3-&6{subheader}&c]'
+playPlatform:
+  material: GLASS
+  enabled: true
+  size: 5

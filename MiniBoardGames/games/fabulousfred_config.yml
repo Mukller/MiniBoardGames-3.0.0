@@ -1,0 +1,22 @@
+play: '&3Play'
+instructions: Select a game mode#and follow the song
+select: '&6Select gamemode'
+notes: 5
+cost: 0.0
+end:
+  title: '&aCongratulations!'
+  subtitle: '&cYou end the song!'
+  subtitleendless: '&cYou lose in round {round}'
+displayName: FabulousFred
+endless: '&4Endless'
+enableToBet: true
+enabled: true
+select2: '&6Select rounds'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:note_block
+  count: 1
+  schema_version: 1
+finalCommand: ''
+rounds: '&cRounds'

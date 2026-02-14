@@ -1,0 +1,17 @@
+score: 'Score: {score}'
+instructions: 'Move: A & D#Rotate: Space#Soft Drop: S#Hard Drop: Right Click#Hold:
+  Shift'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:chest
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: Tetris
+lose: Tetris overflow!
+finalCommand: ''
+enableToBet: true
+lines: 'Lines: {lines}'
+enabled: true
+recordCommand: ''

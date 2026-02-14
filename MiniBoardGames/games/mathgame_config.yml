@@ -1,0 +1,17 @@
+instructions: Solve the math problems!
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:writable_book
+  count: 1
+  schema_version: 1
+cost: 0.0
+end:
+  title: '&cGameOver'
+  subtitle: '&7You complete correct {correct} of {total}'
+displayName: MathGame
+finalCommand: ''
+enableToBet: true
+title: '&9Math: &a{correct}/{total}'
+rounds: 10
+enabled: true

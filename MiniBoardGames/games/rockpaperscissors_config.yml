@@ -1,0 +1,25 @@
+win:
+  tie:
+    sub: '&6The selections are the same'
+    title: '&c&lTie'
+  win:
+    title: '&c&l{player} wins!'
+    sub: '&6{type1} beats {type2}'
+instructions: You and the other player#select one of the 3 selections#paper beats
+  rock#rock beats scissors#scissors beats paper#tie if the both select the same
+cost: 0.0
+displayName: RockPaperScissors
+enableToBet: true
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:cobblestone
+  count: 1
+  schema_version: 1
+selection: '{player} select {type}'
+type:
+  paper: Paper
+  rock: Rock
+  scissors: Scissors
+finalCommand: ''

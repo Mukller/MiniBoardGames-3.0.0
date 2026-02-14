@@ -1,0 +1,30 @@
+win:
+  tie:
+    sub: '&c&lThe board is full and nobody connected 4!'
+    title: '&6&lTie'
+  diagonal: diagonal
+  title: '&a&l{player} wins!'
+  horizontal: horizontal
+  vertical: vertical
+  sub: '&6It''s connect 4 in {line} line!'
+instructions: It's like TicTacToe but the objetive is make 4#And the discs fall down
+  when you place it
+cost: 0.0
+displayName: Connect4
+turn: '&a{disc} turn!'
+enableToBet: true
+discs:
+  yellow: '&eYellow disc'
+  red: '&cRed disc'
+enabled: true
+see: '&aSee how the game end!'
+title:
+  other: '&cConnect4: &a{player}&c turn'
+  your: '&cConnect4: &aYour turn'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:sand
+  count: 1
+  schema_version: 1
+finalCommand: ''

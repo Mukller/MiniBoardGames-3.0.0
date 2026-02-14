@@ -1,0 +1,17 @@
+broadcast:
+  msg: '&6{player}&2 win 2048'
+  enabled: true
+score: 'Score: &l{score}'
+instructions: Merge two same tiles to multiply it#And try to get 2048
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:bookshelf
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: Game2048
+finalCommand: ''
+enableToBet: true
+win: You win
+enabled: true

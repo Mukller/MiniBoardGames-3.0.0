@@ -1,0 +1,68 @@
+instructions: The players start with 7 cards#and have to place a card that have#the
+  same color or number#as the card in the center#Or have wild card#You can see the
+  lore of special cards#for chec their actions
+cards:
+  draw2:
+    description: '&fDraw 2 cards to the next player'
+    name: Draw 2
+  wild:
+    description: |-
+      &fUse this card and now
+      &fyou can set any card
+      &7Note: You can't
+      &7put 2 wild cards in
+      &7one turn
+    name: '&4W&6i&2l&1d'
+  color:
+    yellow: YELLOW
+    red: RED
+    green: GREEN
+    blue: BLUE
+  reverse:
+    name: Reverse
+    description: |-
+      &fSwitch turn direction
+      &7Note: In 2 players this card skip
+  wilddraw4:
+    description: |-
+      &fDraw 4 cards for
+      &fthe next player
+      &fUse this card and
+      &fnow you can set any card
+      &7Note: You can't put
+      &72 wild cards in
+      &7one turn
+    name: '&4W&6i&2l&1d&6 Draw 4'
+  number:
+    description: |-
+      &fOnly can be used
+      &fif has the same color or number
+      &fthan center
+  skip:
+    description: '&fThe next player misses a turn'
+    name: Skip
+displayName: UNO
+turn: '&6&l{player}''s turn!'
+enabled: true
+title:
+  other: '&cUNO: &a{player} &cturn'
+  your: '&cUNO: &aYour turn'
+  card: '&cUNO: &aPick a card'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:red_banner
+  count: 1
+  components:
+    minecraft:banner_patterns: '[{color:"white",pattern:"minecraft:square_top_left"},{color:"red",pattern:"minecraft:border"},{color:"white",pattern:"minecraft:stripe_center"},{color:"red",pattern:"minecraft:border"}]'
+    minecraft:tooltip_display: '{hidden_components:["minecraft:pot_decorations","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:painting/variant","minecraft:bundle_contents","minecraft:firework_explosion","minecraft:instrument","minecraft:jukebox_playable","minecraft:container","minecraft:charged_projectiles","minecraft:written_book_content","minecraft:fireworks","minecraft:bees","minecraft:block_entity_data","minecraft:tropical_fish/pattern","minecraft:potion_contents","minecraft:map_id"]}'
+    minecraft:damage: '0'
+  schema_version: 1
+pick: '&c&lPick a card from deck!'
+finalCommand: ''
+player: '&7{player} &6{cards} cards'
+cost: 0.0
+enableToBet: true
+win:
+  title: '&a{player} wins!'
+  sub: '&6Has 0 cards!'

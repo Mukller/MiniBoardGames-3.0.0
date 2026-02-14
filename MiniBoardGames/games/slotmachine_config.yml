@@ -1,0 +1,23 @@
+items:
+  iron: '&7Iron'
+  diamond: '&bDiamond'
+  star: '&f&l&oStar'
+  emerald: '&2Emerald'
+instructions: Spin#Increment jackpot#And win
+cost: 0.0
+displayName: SlotMachine
+lose: '&cYou lose!'
+enableToBet: true
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:diamond
+  count: 1
+  schema_version: 1
+jackpot: 0.0
+spin: '&a&lS&b&lP&c&lI&d&lN'
+selfwin: '&aYou win!'
+finalCommand: ''
+jackpotmsg: '&4JackPot: &6{amount}'
+win: '&6{player}&a win &6{amount}&a in Slot Machine!'

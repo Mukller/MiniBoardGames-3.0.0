@@ -1,0 +1,18 @@
+broadcast: true
+instructions: Join gems#And get points#Click to select a gem#Other click to select
+  destination
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:orange_dye
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: CandyCrush
+broadcastMessage: '&c{player}&a win &6{points}&a in CandyCrush'
+finalCommand: ''
+enableToBet: true
+title: '&cCandyCrush: &aScore: {score}'
+enabled: true
+points: '&6Points: {points}'
+recordCommand: ''

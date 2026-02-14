@@ -1,0 +1,40 @@
+instructions: Don't go over 21 or lower than the dealer's hand
+displayName: Blackjack
+messages:
+  summary:
+    title: '&6--||-- &aSummary &6--||--'
+    entry: '&7Hand {hand} ({action}&7):&6 {amount}$ &7[{cards}&7]'
+  dealer: '&7Dealer Card: &7[{cards}&7]'
+  blackjack: '&dBlackjack'
+  spent: '&7You spent: &6{amount}$'
+  money: '&7You won: &6{amount}$'
+  won: '&aWon'
+  lost: '&cLost'
+  bust: '&4Bust'
+  tie: '&6Tie'
+  bet: '&7Bet: &6{amount}$'
+multiplier:
+  blackjack: 2.5
+  win: 2.0
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:iron_sword
+  count: 1
+  schema_version: 1
+finalCommand: ''
+logs: true
+options:
+  hit: '&7Hit'
+  split: '&5Split'
+  double: '&6Double'
+  stand: '&aStand'
+cost: 0.0
+betLore: '&7Click here to bet &6{amount}$'
+enableToBet: true
+bets:
+- 200.0
+- 500.0
+- 1000.0
+dealer: '&6Dealer'

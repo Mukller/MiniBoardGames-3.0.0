@@ -1,0 +1,23 @@
+win:
+  subtitle: '&6{player2}&6 has 0 tokens!'
+  title: '&a{player}&a win!'
+instructions: You can move one in diagonal 1#If you have a token in one diagonal#you
+  can eat it and go to the next#If you move a token to the other side#go to be crowned#Crowned
+  tokens can move in any diagonal slot#The first player without tokens lose
+cost: 0.0
+displayName: Checkers
+turn: '&a{player} turn!'
+enableToBet: true
+crowning: '&2Crowned'
+enabled: true
+token: '&6{player} token!'
+title:
+  other: '&cCheckers: &a{player}&c turn'
+  your: '&cCheckers: &aYour turn'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:oak_slab
+  count: 1
+  schema_version: 1
+finalCommand: ''

@@ -1,0 +1,17 @@
+instructions: There is a crazy bouncing ball#Use your paddle to send it out#The first
+  to lose the ball 10 times lose
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:white_wool
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: Pong
+title:
+  win: '&aYou win!'
+  sub: '&7{bot}-{you}'
+  lose: '&cYou lose!'
+finalCommand: ''
+enableToBet: true
+enabled: true

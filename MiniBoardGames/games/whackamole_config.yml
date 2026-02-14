@@ -1,0 +1,17 @@
+broadcast: true
+instructions: Smash the most possible skulls#in 60 seconds
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:diamond_pickaxe
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: WhackAMole
+finalCommand: ''
+smash: '&aSmash!'
+enableToBet: true
+title: '&cWhackAMole: &aScore: {score}'
+broadcastmsg: '&6{player} wins {points} points in WhackAMole'
+enabled: true
+points: '&6{points} points!'

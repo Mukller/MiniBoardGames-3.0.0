@@ -1,0 +1,24 @@
+instructions: Guess the most searched on internet
+cost: 0.0
+itemname: '&6{searchName}'
+displayName: HigherLower
+enableToBet: true
+higher:
+  name: '&aHigher'
+  lore: '&6{search1} &7has more searches than &6{search2}'
+enabled: true
+lower:
+  lore: '&6{search1} &7has less searches than &6{search2}'
+  name: '&cLower'
+score: '&7Score:&a {score}'
+notification: '&6{searchName1} &7{searchVolume1} &a- &6{searchName2} &7{searchVolume2}'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:arrow
+  count: 1
+  schema_version: 1
+itemlore: '&7Monthly Searchs:&a {searchVolume}'
+finalCommand: ''
+gameover: '&6Game Over'
+recordCommand: ''

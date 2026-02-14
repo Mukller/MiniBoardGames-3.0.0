@@ -1,0 +1,17 @@
+broadcast: true
+instructions: Move with santa with your head#Throw gifs jumping#And try to give gifs
+  to all chimneys
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:snowball
+  count: 1
+  schema_version: 1
+cost: 0.0
+gainPoints: +{points} points!
+displayName: ThisIsXmas
+finalCommand: ''
+enableToBet: true
+broadcastMsg: '&c{player}&6 win &c{points} points&6 in &fThis Is Xmas'
+enabled: true
+points: '&e&lPoints: &a&l{points}'

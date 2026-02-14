@@ -1,0 +1,32 @@
+instructions: 'One random code generates#Then you need to guess it#When you complete
+  one code#it go to be checked#and you go to get the results#&8Black Mark: one color
+  is in the same position#&fWhite Mark: one color is in the code#&fbut no in the position#&7Gray:
+  the color isn''t in the code#Note: the result don''t have order#Note: The colors
+  can''t be repeated'
+cost: 0.0
+displayName: MasterMind
+lose:
+  title: '&aYou lose!'
+  sub: ''
+colors:
+  red: '&c&lRed'
+  purple: '&d&lPurple'
+  yellow: '&e&lYellow'
+  green: '&a&lGreen'
+  blue: '&9&lBlue'
+enableToBet: true
+win:
+  title: '&aYou win!'
+  sub: '&6In {attempt} attempts'
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:rotten_flesh
+  count: 1
+  schema_version: 1
+finalCommand: ''
+place: '&6Place &r{color} &6code!'
+end:
+  board: '&6Board:'
+  code: '&6Code:'

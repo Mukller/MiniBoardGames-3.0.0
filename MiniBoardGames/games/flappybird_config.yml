@@ -1,0 +1,15 @@
+broadcast: true
+instructions: Use space to jump#And try to avoid the tubes
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:egg
+  count: 1
+  schema_version: 1
+cost: 0.0
+displayName: FlappyBird
+finalCommand: ''
+enableToBet: true
+broadcastMsg: '&c{player}&6 win &c{points} points&6 in &2FlappyBird'
+enabled: true
+points: '&e&lPoints: &a&l{points}'

@@ -1,0 +1,33 @@
+win:
+  subtitle: '&7You completed the solitaire in &6{time}!'
+  title: '&a&dCongratulations'
+instructions: Complete the deck!
+cards: '&aCards ({amount}):'
+broadcast:
+  enabled: true
+  msg: '&4{player} completed the solitaire &6{time}!'
+cost: 0.0
+hidden: '&aThere are {amount} hidden card(s)'
+displayName: Solitaire
+picking_column: '&aPicking column {column}...'
+draw: '&aDraw card ({cards})'
+enableToBet: true
+picking: '&aPicking {card}...'
+enabled: true
+different_suit: false
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:white_banner
+  count: 1
+  components:
+    minecraft:banner_patterns: '[{color:"red",pattern:"minecraft:stripe_left"},{color:"white",pattern:"minecraft:half_horizontal"},{color:"red",pattern:"minecraft:stripe_bottom"},{color:"red",pattern:"minecraft:stripe_right"},{color:"white",pattern:"minecraft:border"}]'
+    minecraft:tooltip_display: '{hidden_components:["minecraft:pot_decorations","minecraft:container_loot","minecraft:banner_patterns","minecraft:block_state","minecraft:painting/variant","minecraft:bundle_contents","minecraft:firework_explosion","minecraft:instrument","minecraft:jukebox_playable","minecraft:container","minecraft:charged_projectiles","minecraft:written_book_content","minecraft:fireworks","minecraft:bees","minecraft:block_entity_data","minecraft:tropical_fish/pattern","minecraft:potion_contents","minecraft:map_id"]}'
+    minecraft:damage: '0'
+  schema_version: 1
+record:
+  moves: '&aNew moves record reached: {moves}!'
+moves: '&aMoves: {moves}'
+no_cards: '&cThere are no cards in this pile'
+finalCommand: ''
+recordCommand: ''

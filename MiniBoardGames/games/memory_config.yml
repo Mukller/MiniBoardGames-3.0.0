@@ -1,0 +1,27 @@
+win:
+  subtitle: '&6In {time}!'
+  title: '&aYou win!'
+instructions: Click in 2 slots and memorize it#Then try to find their couple
+pink: '&d&lPink'
+green: '&2&lGreen'
+cost: 0.0
+star: '&f&lStar'
+displayName: Memory
+yellow: '&e&lYellow'
+enableToBet: true
+brown: '&8&lBrown'
+cyan: '&3&lCyan'
+enabled: true
+clay: '&7&lClay'
+orange: '&6&lOrange'
+diamond: '&b&lDiamond'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:spider_eye
+  count: 1
+  schema_version: 1
+purple: '&5&lPurple'
+lapis: '&9&lBlue'
+finalCommand: ''
+emerald: '&a&lEmerald'

@@ -1,0 +1,138 @@
+spider:
+  name: '&4Spider'
+  mana: 5
+  damage: 5
+  heal: 1
+chicken:
+  heal: 1
+  mana: 0
+  damage: 1
+  name: '&eChicken'
+skeleton:
+  name: '&7Skeleton'
+  damage: 4
+  heal: 2
+  mana: 4
+silverfish:
+  name: '&8Silverfish'
+  damage: 2
+  mana: 2
+  heal: 1
+zombie_villager:
+  heal: 2
+  damage: 4
+  mana: 4
+  name: '&2Zombie Villager'
+finalCommand: ''
+panda:
+  name: '&fPa&0nd&fa'
+  heal: 5
+  damage: 4
+  mana: 5
+slime:
+  heal: 3
+  name: '&2Slime'
+  damage: 3
+  mana: 4
+guardian:
+  heal: 3
+  damage: 4
+  mana: 5
+  name: '&3Guardian'
+creeper:
+  name: '&aCreeper'
+  heal: 2
+  damage: 3
+  mana: 3
+charged_creeper:
+  mana: 5
+  heal: 2
+  damage: 7
+  name: '&3Charged Creeper'
+blaze:
+  name: '&6Blaze'
+  damage: 5
+  heal: 3
+  mana: 5
+squid:
+  name: '&9Squid'
+  damage: 1
+  mana: 1
+  heal: 1
+iron_golem:
+  mana: 6
+  damage: 7
+  name: '&fIron Golem'
+  heal: 4
+enderman:
+  damage: 5
+  name: '&dEnderman'
+  mana: 6
+  heal: 5
+shulker:
+  heal: 5
+  name: '&5Shulker'
+  damage: 6
+  mana: 5
+lava_slime:
+  name: '&4Lava Slime'
+  heal: 5
+  mana: 4
+  damage: 3
+wither_boss:
+  mana: 9
+  heal: 8
+  damage: 9
+  name: '&4&l&oWither Boss'
+ender_dragon:
+  damage: 10
+  mana: 10
+  name: '&5&l&oEnder Dragon'
+  heal: 10
+snowman:
+  heal: 1
+  name: '&7Snowman'
+  damage: 2
+  mana: 2
+card: '&6{player}''s card'
+damage: '&6&l{damage} Damage'
+withereper:
+  mana: 7
+  name: '&8&l&oWithereper'
+  heal: 4
+  damage: 7
+displayName: HearthStone
+turn: '&2{player}''s turn'
+villager:
+  damage: 1
+  name: '&6Villager'
+  mana: 1
+  heal: 1
+enabled: true
+health: 30
+enableToBet: true
+mana: '&9&l{mana} Mana'
+ghast:
+  damage: 6
+  heal: 1
+  name: '&7Ghast'
+  mana: 5
+win:
+  subtitle: '{live1}-{live2}'
+  title: '&a{player}&a win!'
+instructions: This mbg is based in the Blizzard Game#Spawn cards#Hit the other player
+  cards#And hit the other player#The first with heal 0 lose
+title:
+  other: '&cHearthStone: &a{player}&c turn'
+  your: '&cHearthStone: &aYour turn'
+endturn: '&6Click to end turn!'
+notattack: '&cCan''t attack'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:nether_star
+  count: 1
+  schema_version: 1
+ready: '&aReady to attack'
+heal: '&c&l{heal} Heal'
+cost: 0.0

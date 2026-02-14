@@ -1,0 +1,28 @@
+win:
+  tie:
+    sub: '&6The board it''s full and anyone wins!'
+    title: '&c&lTie'
+  diagonal: diagonal
+  horizontal: horizontal
+  vertical: vertical
+  win:
+    title: '&6{player}&a wins!'
+    sub: '&6With {line} line'
+instructions: In 3x3 board#you and the other player#need place skulls##The first make
+  a line of 3#in diagonal, horizontal, vertical#wins the game
+cost: 0.0
+bot: '&d&lGLaDOS'
+displayName: TicTacToe
+turn: '&6{player}''s&a turn'
+enableToBet: true
+enabled: true
+title:
+  other: '&cTicTacToe: &a{player}&c turn'
+  your: '&cTicTacToe: &aYour turn'
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:stick
+  count: 1
+  schema_version: 1
+finalCommand: ''

@@ -1,0 +1,28 @@
+instructions: Start finding mines#The numbers mark the#mines around (1)#in all directions#included
+  diagonal#then you need to find#the slots are not mine#you can use central mouse
+  button#for add flag#When you have all no-mine slots finded#you win!
+win:
+  message: '{player} wins on Minesweeper in {time}'
+  broadcast: true
+flag: '&2Flag'
+cost: 0.0
+question: '&dTemp'
+displayName: Minesweeper
+help:
+  title: '&6&lControls'
+  body:
+  - '&cClick for hunt mine'
+  - '&cMouse Wheel for flag'
+enableToBet: true
+bomb: '&4Bomb'
+title: '&cMinesweeper: &a{unlocked}/{total}'
+enabled: true
+selectIcon:
+  ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4671
+  id: minecraft:tnt
+  count: 1
+  schema_version: 1
+tile: '&7Tile'
+finalCommand: ''
+recordCommand: ''
