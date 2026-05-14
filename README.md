@@ -1,4 +1,4 @@
-# MiniBoardGames 3.6.3
+# MiniBoardGames 3.0.0
 
 Плагин для добавления мини-игр прямо в Minecraft сервер!
 
