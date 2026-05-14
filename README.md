@@ -335,8 +335,6 @@ time-per-move: 30
 
 - 💬 [Discord сервер](https://discord.gg/example) (если есть)
 - 🐛 [Багрепорты](https://github.com/Mukller/MiniBoardGames-3.0.0/issues)
-- 💡 [Предложения фич](https://github.com/Mukller/MiniBoardGames-3.0.0/discussions)
-- 📧 Email: [contact@example.com](mailto:contact@example.com) (если есть)
 
 ---
 
