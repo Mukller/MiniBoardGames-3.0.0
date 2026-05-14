@@ -72,7 +72,7 @@ rewards:
 4. Пушьте в ветку (`git push origin feature/AmazingFeature`)
 5. Откройте Pull Request
 
-## 🐛 報告об ошибках
+## 🐛 Сообщить об ошибках
 
 Если вы обнаружили баг, пожалуйста, создайте [Issue](https://github.com/Mukller/MiniBoardGames-3.6.3/issues) с подробным описанием.
 
