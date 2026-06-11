@@ -4,11 +4,14 @@
 
 🎮 **Minecraft Plugin** для добавления мини-игр прямо на ваш сервер
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.16.5%2B-green)](https://www.minecraft.net/)
-[![Java](https://img.shields.io/badge/Java-11%2B-orange)](https://www.java.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=flat-square)](LICENSE.md)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.16%2B-green?style=flat-square)](https://minecraft.net)
+[![Java](https://img.shields.io/badge/Java-11%2B-blue?style=flat-square&logo=java)](https://www.java.com/)
+[![PaperMC](https://img.shields.io/badge/PaperMC-Latest-orange?style=flat-square)](https://papermc.io)
+[![maintained](https://img.shields.io/badge/maintained%3F-yes-green?style=flat-square)](https://github.com/Mukller/MiniBoardGames-3.0.0)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
-[О проекте](#-описание) • [Установка](#-установка) • [Команды](#-основные-команды) • [Конфигурация](#-конфигурация) • [Вклад](#-контрибьютинг) • [Лицензия](#-лицензия)
+[English](README_EN.md) • Русский
 
 </div>
 
