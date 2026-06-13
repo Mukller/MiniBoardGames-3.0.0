@@ -1,22 +1,13 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple?style=flat-square)](LICENSE.md)
-[![maintained](https://img.shields.io/badge/maintained%3F-yes-green?style=flat-square)](https://github.com/Mukller/MiniBoardGames-3.0.0)
+[![maintained](https://img.shields.io/badge/maintained%3F-yes-green?style=flat-square)](https://github.com/Mukller/REPO)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
-
----
-
-## Language / Язык
 
 </div>
 
-| **📖 English** | **📖 Русский** |
-|:---:|:---:|
-| Scroll down / Листай вниз | Листай вниз / Scroll down |
-
----
-
-## English Version
+<details open>
+<summary><strong>📖 English</strong></summary>## English Version
 
 
 
@@ -68,6 +59,11 @@ Mukller - [@Mukller](https://github.com/Mukller)
 Made with ❤️ by Mukller
 
 ---
+
+</details>
+
+<details>
+<summary><strong>📖 Русский</strong></summary>
 
 ## Русская версия
 
@@ -428,3 +424,5 @@ time-per-move: 30
 [⬆ вернуться в начало](#miniboardgames-300)
 
 </div>
+
+</details>
