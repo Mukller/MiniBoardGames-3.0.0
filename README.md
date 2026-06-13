@@ -4,10 +4,22 @@
 [![maintained](https://img.shields.io/badge/maintained%3F-yes-green?style=flat-square)](https://github.com/Mukller/MiniBoardGames-3.0.0)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md)
 
+---
+
+## Language / Язык
+
 </div>
 
-<details open>
-<summary><strong>📖 English</strong></summary>
+| **📖 English** | **📖 Русский** |
+|:---:|:---:|
+| Scroll down / Листай вниз | Листай вниз / Scroll down |
+
+---
+
+## English Version
+
+
+
 
 # DailyStreak 3.0.0
 
@@ -55,10 +67,12 @@ Mukller - [@Mukller](https://github.com/Mukller)
 
 Made with ❤️ by Mukller
 
-</details>
+---
 
-<details>
-<summary><strong>📖 Русский</strong></summary>
+## Русская версия
+
+
+
 
 # MiniBoardGames 3.0.0
 
@@ -414,5 +428,3 @@ time-per-move: 30
 [⬆ вернуться в начало](#miniboardgames-300)
 
 </div>
-
-</details>
